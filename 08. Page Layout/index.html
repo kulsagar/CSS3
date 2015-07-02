@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>01. Hello World</title>
+    <style>
+        p{
+            color: #000000;
+            font-size: medium;
+            /*   font-family: "Segoe UI";*/
+        }
+        h1{
+            color: red;
+            font-size: x-large;
+            /*font-family: "Segoe UI";*/
+            text-align: center;
+            padding: 5px;
+            margin: 0 -15px 20px -15px;
+        }
+        h2{
+            color: blue;
+            font-size: larger;
+            /*font-family: "Segoe UI";*/
+        }
+        footer p{
+            font-size: x-small;
+        }
+        .entry-title{
+            background-color: gray;
+        }
+        .entry-meta{
+            font-style: italic;
+        }
+        .author{
+            font-style: normal;
+        }
+        #post-5946{
+            background: lightgrey;
+        }
+        ul li a{
+            color: darkred;
+        }
+        /*
+                .entry-content :first-child{
+                    color: blue;
+                }
+        */
+        /*
+                pseudo classes
+        */
+        ul :nth-child(odd){background: #d5c1ff;}
+        ul :nth-child(even){background: #ffffff;}
+        .wholePage{
+            font-family: "Segoe UI",arial, Helvetica,sans-serif;
+            font-size: 18px;
+            color: #000000;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 750px;
+            border: 3px solid rgb(75,75,75);
+            box-shadow: 0 0 15px 5px rgba(40,80,100,.75);
+        }
+
+        #bookId{
+            color: orange;
+        }
+        /*div :first-child{
+            color: #ff58d3;
+        }*/
+        .sidebar{
+            float: right;
+            width: 170px;
+            margin-top: 100px;
+
+        }
+        /*.sidebarLeft{
+            float: left;
+            width: 170px;
+            margin-top: 100px;
+
+        }*/
+        .mainSection{
+            margin:180px;
+            margin-top: 65px;
+            margin-left: 0px;
+           /* margin-left: 180px;*/
+        }
+        .image{
+            width: 134px;
+            height: 136px;
+            margin: 5px;
+            float: right;
+        }
+    </style>
+</head>
+<body class="wholePage">
+<aside class="sidebar">
+    <section class="aside-header">
+        <h2 > About me</h2>
+    </section>
+    <section class="aside-body">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius dolor eget leo venenatis, et congue purus dignissim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam tristique justo et lorem commodo fringilla. Fusce fringilla magna vitae tincidunt viverra. Vestibulum at ipsum velit. Morbi at tincidunt risus. Donec elementum condimentum nunc id dapibus. Nam leo tellus, viverra et fringilla eget, rhoncus in sem. Praesent eu porta ante, id aliquet diam. Phasellus lacus enim, dictum id elit eget, convallis tincidunt arcu. Nunc volutpat urna purus, eu sodales enim tincidunt blandit. Nulla tempor consequat sodales
+    </section>
+</aside>
+<!--
+<aside class="sidebarLeft">
+    <section class="aside-header">
+        <h2 > About me</h2>
+    </section>
+    <section class="aside-body">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris varius dolor eget leo venenatis, et congue purus dignissim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam tristique justo et lorem commodo fringilla. Fusce fringilla magna vitae tincidunt viverra. Vestibulum at ipsum velit. Morbi at tincidunt risus. Donec elementum condimentum nunc id dapibus. Nam leo tellus, viverra et fringilla eget, rhoncus in sem. Praesent eu porta ante, id aliquet diam. Phasellus lacus enim, dictum id elit eget, convallis tincidunt arcu. Nunc volutpat urna purus, eu sodales enim tincidunt blandit. Nulla tempor consequat sodales
+    </section>
+</aside>
+-->
+
+<div class="mainSection">
+    <article id="post-5946">
+        <section id="post-5946-header">
+            <h1 class="entry-title">Art of teaching</h1>
+            <div class="entry-meta">
+                <span class="meta-prep">Posted on June 2, 2015</span>
+                <span class="meta-sep">by</span>
+                <span class="author">Sagar Kulkarni</span>
+            </div>
+        </section>
+        <section class="entry-content">
+
+            <p>Very proud to write my first blog
+                <a href="#">Art of teaching</a>
+                <img class="image" alt="Art of teaching"src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRTwbQ-eFNAUYUHWDE3xtASbHmKonHNVohbODV2xcOfqaBxI3MCyg">
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget convallis orci. Sed in nunc eu est placerat egestas. Fusce tempor consectetur tellus, iaculis malesuada augue interdum in. Nulla facilisi. Nam interdum eros et lacus tempor porttitor. Aenean facilisis ex sed odio elementum finibus. Quisque dapibus odio in mi vehicula accumsan. Praesent gravida dignissim lectus in molestie. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam rhoncus posuere neque, a faucibus ligula. Aliquam sed tortor eu odio molestie gravida pharetra eu nisl. Vivamus rutrum elit in aliquet semper. Vivamus consectetur diam viverra orci mattis facilisis. Etiam accumsan pellentesque porta.
+
+                Proin id consectetur ante, pellentesque consequat nunc. Nullam at feugiat velit, et finibus lorem. Donec interdum viverra mi, sit amet molestie lorem pretium non. Vestibulum bibendum justo eget nisl tincidunt elementum. Nunc euismod eros sapien, quis ornare ipsum convallis eleifend. Vestibulum a hendrerit nisi, vitae fermentum metus. In convallis quis urna in semper. Cras at sem non ante cursus lobortis. Cras tincidunt vitae augue eget vehicula. Aliquam accumsan lacus ac est rutrum, nec aliquam quam cursus.
+            </p>
+            <div id="bookId">
+                <p>List of books I read on this</p>
+                <ul>
+                    <li> Teaching Outside the Box  </li>
+                    <li>Those who can teach</li>
+                    <li>Teach like a champion</li>
+                    <li>The courage to teach</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <p>Fusce ultrices dapibus massa, non sollicitudin velit imperdiet nec. Pellentesque lobortis nibh vel mauris pharetra, et venenatis massa mattis. Nulla venenatis, ante et tristique sodales, sem tortor ultricies lacus, et luctus sapien ex in metus. Duis mauris dui, interdum non felis at, pulvinar pellentesque nunc. Fusce congue ac libero vel interdum. Etiam a ante eget quam condimentum tincidunt. Aliquam a est posuere, auctor tortor at, feugiat tortor.
+            </p>
+
+            <p>Proin facilisis diam nunc. Integer at tellus leo. Phasellus accumsan in mauris sed efficitur. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus posuere vulputate eros, eget mollis dolor ullamcorper vitae. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum eget elit et libero rhoncus efficitur at ac justo. Sed semper elit elit.
+            </p>
+        </section>
+    </article>
+</div>
+<footer class="footer">
+    <p>Copyright 2015 Sagar Kulkarni</p>
+</footer>
+</body>
+</html>
